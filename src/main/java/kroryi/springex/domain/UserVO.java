@@ -14,4 +14,5 @@ public class UserVO {
     private String user_name;
     private LocalDate register_date;
     private String user_pw;
+    private String email;
 }

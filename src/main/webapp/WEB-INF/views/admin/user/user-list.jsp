@@ -4,7 +4,7 @@
 <html>
 <head>
     <title>User List Page</title>
-    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
 </head>
 
 <body>
@@ -12,21 +12,21 @@
 <div class="row">
     <div class="col">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">Navbar</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                        <a class="nav-link" href="#">Feature</a>
-                        <a class="nav-link" href="#">Pricing</a>
-                        <a class="nav-link" href="#">Disabled</a>
-                    </div>
-                </div>
+<%--            <div class="container-fluid">--%>
+                <a class="navbar-brand" href="/admin/">Home</a>
+<%--                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"--%>
+<%--                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"--%>
+<%--                        aria-expanded="false" aria-label="Toggle navigation">--%>
+<%--                    <span class="navbar-toggler-icon"></span>--%>
+<%--                </button>--%>
+<%--                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">--%>
+<%--                    <div class="navbar-nav">--%>
+<%--                        <a class="nav-link active" aria-current="page" href="#">Home</a>--%>
+<%--                        <a class="nav-link" href="#">Feature</a>--%>
+<%--                        <a class="nav-link" href="#">Pricing</a>--%>
+<%--                        <a class="nav-link" href="#">Disabled</a>--%>
+<%--                    </div>--%>
+<%--                </div>--%>
             </div>
         </nav>
     </div>
@@ -65,6 +65,7 @@
         <th scope="col">ID</th>
         <th scope="col">이름</th>
         <th scope="col">비밀번호</th>
+        <th scope="col">이메일</th>
         <th scope="col">가입일자</th>
         </thead>
         <c:forEach items="${responseDTO.dtoList}" var="duser">
@@ -73,6 +74,7 @@
                 </th>
                 <td><c:out value="${duser.user_name}"/></td>
                 <td><c:out value="${duser.user_pw}"/></td>
+                <td><c:out value="${duser.email}"/></td>
                 <td><c:out value="${duser.register_date}"/></td>
             </tr>
         </c:forEach>

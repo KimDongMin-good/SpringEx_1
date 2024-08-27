@@ -70,7 +70,7 @@
                 <h6 class="collapse-header">Login Screens:</h6>
                 <a class="collapse-item" href="/admin/login/user-login">로그인</a>
                 <a class="collapse-item" href="/admin/user/user-register">회원가입</a>
-                <a class="collapse-item" href="forgot-password">비밀번호 찾기</a>
+                <a class="collapse-item" href="/admin/user/forgot">비밀번호 찾기</a>
             </div>
         </div>
     </li>

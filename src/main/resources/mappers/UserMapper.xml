@@ -9,8 +9,8 @@
     </select>
 
     <insert id="insert">
-        insert into tbl_user(user_id, user_name, user_pw, register_date)
-        values (#{user_id}, #{user_name}, #{user_pw}, #{register_date})
+        insert into tbl_user(user_id, user_name, user_pw, email)
+        values (#{user_id}, #{user_name}, #{user_pw}, #{email})
     </insert>
 
     <select id="selectAll" resultType="kroryi.springex.domain.UserVO">

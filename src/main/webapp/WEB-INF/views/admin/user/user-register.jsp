@@ -17,11 +17,15 @@
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text">이름</span>
-            <input type="text" name="user_name" class="form-control" placeholder="이름을 입력하세요">
+            <input type="text" name="user_name" class="form-control" placeholder="이름을 입력해주세요">
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text">비밀번호</span>
-            <input type="password" name="user_pw" class="form-control" placeholder="비밀번호를 입력하세요">
+            <input type="password" name="user_pw" class="form-control" placeholder="비밀번호를 입력해주세요">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text">이메일</span>
+            <input type="text" name="email" class="form-control" placeholder="이메일을 입력해주세요">
         </div>
         <div class="input-group mb-3">
             <span class="input-group-text">가입일</span>

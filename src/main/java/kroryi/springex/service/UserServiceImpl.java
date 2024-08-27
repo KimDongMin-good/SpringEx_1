@@ -24,7 +24,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public void register(UserDTO userDTO) {
 
-        log.info("Register user: " + userDTO);
+        log.info("Register user: {}", userDTO);
         UserVO userVO = modelMapper.map(userDTO, UserVO.class);
         log.info(userVO);
 

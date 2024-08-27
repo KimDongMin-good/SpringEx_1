@@ -11,7 +11,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Forgot Password</title>
+    <title>Forgot Password</title>
 
     <!-- Custom fonts for this template-->
     <link href="/startbootstrap/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -37,14 +37,13 @@
                     <div class="card-body p-0">
                         <!-- Nested Row within Card Body -->
                         <div class="row">
-                            <div class="col-lg-6 d-none d-lg-block bg-password-image"></div>
+                            <div class="col-lg-6 d-none d-lg-block bg-password-image" style="text-align: center"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR765MojEiJixzYYyTWSfQhLwK4NxJ7sAQWbQ&s"></div>
                             <div class="col-lg-6">
                                 <div class="p-5">
                                     <form action="/admin/user/forgot" method="get">
                                     <div class="text-center">
-                                        <h1 class="h4 text-gray-900 mb-2">Forgot Your Password?</h1>
-                                        <p class="mb-4">We get it, stuff happens. Just enter your email address below
-                                            and we'll send you a link to reset your password!</p>
+                                        <h1 class="h4 text-gray-900 mb-2">비밀번호를 잊으셨나요?</h1>
+                                        <p class="mb-4">이메일 주소를 입력해주세요</p>
                                     </div>
                                     <form class="user">
                                         <div class="form-group">

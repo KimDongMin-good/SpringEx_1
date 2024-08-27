@@ -3,7 +3,7 @@
 
 <html>
 <head>
-    <title>Todo 상세보기</title>
+    <title>게시물 상세보기</title>
     <meta name="viewport" content="width=device-width" , initial-scale="1.0">
 </head>
 

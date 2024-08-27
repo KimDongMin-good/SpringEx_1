@@ -31,7 +31,7 @@ public class AdminUserController {
     @RequestMapping("/forgot")
     public String forgot(Model model) {
         log.info("user -> forgot controller");
-//        model.addAttribute("userList", userService.getAll());
+        model.addAttribute("userList", userService.getAll());
         return "admin.forgot.page";
     }
 
@@ -74,7 +74,7 @@ public class AdminUserController {
     }
 
     @RequestMapping(value = "/user-register", method = RequestMethod.POST)
-    public String registerpost(@Valid UserDTO userDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes) {
+    public String registerpost(UserDTO userDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes) {
         log.info("POSTtodo -> register controller");
         if (bindingResult.hasErrors()) {
             log.info("has errors ......");

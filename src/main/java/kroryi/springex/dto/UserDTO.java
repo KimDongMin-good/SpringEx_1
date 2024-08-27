@@ -12,11 +12,13 @@ import java.time.LocalDate;
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserDTO {
-    @NotEmpty(message = "ID를 입력하세요.")
+    @NotEmpty(message = "ID를 입력해주세요.")
     private String user_id;
-    @NotEmpty(message = "이름을 입력하세요.")
+    @NotEmpty(message = "이름을 입력해주세요.")
     private String user_name;
-    @NotEmpty(message = "비밀번호를 입력하세요.")
+    @NotEmpty(message = "비밀번호를 입력해주세요.")
     private String user_pw;
+    @NotEmpty(message = "이메일을 입력해주세요.")
+    private String email;
     private LocalDate register_date;
 }

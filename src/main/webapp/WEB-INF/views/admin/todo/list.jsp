@@ -8,7 +8,7 @@
 </head>
 
 <body>
-<h1>Todo 목록</h1>
+<h1>게시물 목록</h1>
 <div class="row">
     <div class="col">
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
