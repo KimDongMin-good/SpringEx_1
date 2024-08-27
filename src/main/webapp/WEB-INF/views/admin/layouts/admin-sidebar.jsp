@@ -7,7 +7,7 @@
         <div class="sidebar-brand-icon rotate-n-15">
             <i class="fas fa-laugh-wink"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">병원관리 관리</div>
+        <div class="sidebar-brand-text mx-3">관리자 페이지</div>
     </a>
 
     <!-- Divider -->
@@ -39,13 +39,13 @@
         <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo"
            aria-expanded="true" aria-controls="collapseTwo">
             <i class="fas fa-fw fa-folder"></i>
-            <span>Todo관리</span>
+            <span>게시판 관리</span>
         </a>
         <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
             <div class="bg-white py-2 collapse-inner rounded">
                 <h6 class="collapse-header">Todo: </h6>
-                <a class="collapse-item" href="/admin/todo/register">Todo등록</a>
-                <a class="collapse-item" href="/admin/todo/list">Todo목록</a>
+                <a class="collapse-item" href="/admin/todo/register">게시물 등록</a>
+                <a class="collapse-item" href="/admin/todo/list">게시물 목록</a>
             </div>
         </div>
     </li>
