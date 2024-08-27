@@ -131,8 +131,6 @@ public class AdminUserController {
 
     @RequestMapping(value = "/user-modify", method = RequestMethod.POST)
     public String modify(PageUserRequestDTO pageRequestDTO, @Valid UserDTO userDTO, BindingResult bindingResult, RedirectAttributes redirectAttributes) {
-        log.info("POSTtodo -> modify controller");
-        log.info("11111111111111111->{}", userDTO);
 
         if (bindingResult.hasErrors()) {
             log.info("has errors ......");

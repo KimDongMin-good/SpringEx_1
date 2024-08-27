@@ -29,6 +29,12 @@
         </div>
 
         <div class="input-group mb-3">
+            <span class="input-group-text">이메일</span>
+            <input type="text" name="email" class="form-control"
+                   value="${dto.email}">
+        </div>
+
+        <div class="input-group mb-3">
             <span class="input-group-text">가입일자</span>
             <input type="date" name="register_date" class="form-control"
                    value="${dto.register_date}" disabled>

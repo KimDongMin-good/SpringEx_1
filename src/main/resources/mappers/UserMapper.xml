@@ -34,7 +34,8 @@
     <update id="modify">
         update tbl_user
         set user_name = #{user_name},
-            user_pw = #{user_pw}
+            user_pw = #{user_pw},
+            email = #{email}
         where user_id = #{user_id}
     </update>
 

@@ -16,6 +16,12 @@
     </div>
 
     <div class="input-group mb-3">
+        <span class="input-group-text">비밀번호</span>
+        <input type="password" name="user_pw" class="form-control"
+               value="${dto.user_pw}">
+    </div>
+
+    <div class="input-group mb-3">
         <span class="input-group-text">이메일</span>
         <input type="text" name="register_date" class="form-control"
                value="${dto.email}" disabled>
